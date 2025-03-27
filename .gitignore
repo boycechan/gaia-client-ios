@@ -1,0 +1,78 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## User settings
+xcuserdata/
+
+## Xcode系统文件
+.DS_Store
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+## 编译生成文件
+build/
+DerivedData/
+*.ipa
+*.dSYM
+*.dSYM.zip
+*.xcarchive
+
+## 依赖管理相关
+Pods/
+Carthage/
+*.xcworkspace
+!default.xcworkspace
+
+## 编译中间文件
+*.hmap
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+## 代码覆盖率
+*.profdata
+*.trace
+
+## 日志文件
+*.log
+
+## Swift Package Manager
+Packages/
+Package.pins
+Package.resolved
+*.xcodeproj
+
+## AppCode
+.idea/
+
+## 其他
+*.swp
+*~
+.*.sw*
+
+## CocoaPods
+Pods/
+*.xcworkspace
+
+## 个人设置
+*.xcuserstate
+project.xcworkspace/
+xcuserdata/
+
+## 测试相关
+coverage/
+fastlane/report.xml
+
+## 环境配置文件（可能包含敏感信息）
+*.env
+
+## Swift Package Manager
+.swiftpm/

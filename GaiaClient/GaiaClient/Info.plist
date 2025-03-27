@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>$(PRODUCT_NAME)</string>
+	<key>CFBundlePackageType</key>
+	<string>$(PRODUCT_BUNDLE_PACKAGE_TYPE)</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(MARKETING_VERSION)</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>GAIABLEServiceUUID</key>
+	<string>00001100-D102-11E1-9B23-00025B00A5A5</string>
+	<key>GAIAIAP2ProtocolName</key>
+	<string>com.qtil.gaia</string>
+	<key>GAIAUpdateServerFilterDescriptions</key>
+	<array>
+		<dict>
+			<key>DescriptionKey</key>
+			<string>Quality Passed</string>
+			<key>ServerKey</key>
+			<string>TP</string>
+		</dict>
+		<dict>
+			<key>DescriptionKey</key>
+			<string>Quality Failed</string>
+			<key>ServerKey</key>
+			<string>TF</string>
+		</dict>
+		<dict>
+			<key>DescriptionKey</key>
+			<string>RC Candidate</string>
+			<key>ServerKey</key>
+			<string>RC</string>
+		</dict>
+		<dict>
+			<key>DescriptionKey</key>
+			<string>ES Release</string>
+			<key>ServerKey</key>
+			<string>ES</string>
+		</dict>
+		<dict>
+			<key>DescriptionKey</key>
+			<string>CS Release</string>
+			<key>ServerKey</key>
+			<string>CS</string>
+		</dict>
+		<dict>
+			<key>DescriptionKey</key>
+			<string>Dogfood Ready</string>
+			<key>ServerKey</key>
+			<string>DR</string>
+		</dict>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>LSSupportsOpeningDocumentsInPlace</key>
+	<true/>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app needs access to your music player to test your audio devices. </string>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>This app requires access to Bluetooth to manage your devices. </string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>external-accessory</string>
+	</array>
+	<key>UIFileSharingEnabled</key>
+	<true/>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>armv7</string>
+	</array>
+	<key>UIStatusBarTintParameters</key>
+	<dict>
+		<key>UINavigationBar</key>
+		<dict>
+			<key>Style</key>
+			<string>UIBarStyleDefault</string>
+			<key>Translucent</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>UISupportedExternalAccessoryProtocols</key>
+	<array>
+		<string>com.qtil.gaia</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+</dict>
+</plist>
